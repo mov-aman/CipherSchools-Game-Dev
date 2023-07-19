@@ -16,5 +16,6 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(int points)
     {
         _score += points;
+        Debug.Log(_score)
     }
 }
